@@ -21,7 +21,7 @@ III. Once the location is predicted, sensor input data will be used to update th
 IV. I also tried cases were just one of the sensors was active and measurements of the other senor was not considered during update and prediction step. We observe higher rmse when one of the sensors is inactive, this is because we have less information about the object, as a result there will be more uncertainty in calculations and the performance will be degraded. Comparing Laser and Radar based on rmse, it appears laser performs better because it has lower rmse error.
 
 <!-- [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EAdp8r0g58M/0.jpg)](https://www.youtube.com/watch?v=EAdp8r0g58M) -->
-[![Demo CountPages alpha](https://j.gifs.com/ZVZwnv.gif)](https://www.youtube.com/watch?v=EAdp8r0g58M)
+<p align="center">[![Demo CountPages alpha](https://j.gifs.com/ZVZwnv.gif)](https://www.youtube.com/watch?v=EAdp8r0g58M)</p>
 
 <br>The following shows driving next to the edge of the curve and bringing the car back to the center of the road</br>
 <p align="center"><img src="examples/curv_1.jpg" width = "350" alt="Combined Image" />
