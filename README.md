@@ -24,7 +24,7 @@ IV. I also tried cases were just one of the sensors was active and measurements 
 <!-- [![Demo Sensor Fusion](https://j.gifs.com/ZVZwnv.gif)](https://www.youtube.com/watch?v=EAdp8r0g58M) -->
 
 <p align="center">
-<img src="https://j.gifs.com/ZVZwnv.gif" width = "350" />
+<img src="https://j.gifs.com/ZVZwnv.gif" width = "1000" />
 </p>
 
 
@@ -33,7 +33,7 @@ IV. I also tried cases were just one of the sensors was active and measurements 
 
 <br>The following shows driving next to the edge of the curve and bringing the car back to the center of the road</br>
 <p align="center"><img src="examples/curv_1.jpg" width = "350" alt="Combined Image" />
-<img src="examples/curv_1_2.jpeg" width = "700" alt="Combined Image" /> </p>
+<img src="examples/curv_1_2.jpeg" width = "1000" alt="Combined Image" /> </p>
 
 </br>
 <br></br>
