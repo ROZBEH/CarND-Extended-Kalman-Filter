@@ -24,7 +24,7 @@ IV. I also tried cases were just one of the sensors was active and measurements 
 <!-- [![Demo Sensor Fusion](https://j.gifs.com/ZVZwnv.gif)](https://www.youtube.com/watch?v=EAdp8r0g58M) -->
 
 <p align="center">
-<img src="https://j.gifs.com/ZVZwnv.gif"/>
+<img src="https://j.gifs.com/ZVZwnv.gif" width = "350" />
 </p>
 
 
