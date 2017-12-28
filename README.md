@@ -40,7 +40,7 @@ IV. I also performed simulations for cases were just one of the sensors was acti
 
 
 <br>The following shows driving next to the edge of the curve and bringing the car back to the center of the road</br>
-<p align="center"><img src="image/table.png" width = "500" alt="Combined Image" />
+<p align="center"><img src="image/table.png" width = "600" alt="Combined Image" />
 </p>
 
 </br>
