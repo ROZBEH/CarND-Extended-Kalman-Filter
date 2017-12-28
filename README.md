@@ -27,7 +27,7 @@ II. After initializing kalman filter class, object location(Px, Py) and velocity
 
 III. Once the location is predicted, sensor data will be used to update the location of the object. Based on the sensor type (Laser, Radar), there are two different types of update step. If the sensor type is laser, the update step is like typical kalman filter update step. However, if the sensor type is Radar, we have to mitigate the nonlinearity associated with the Radar measurments. This will be done by using jacobian matrix.
 
-* During update step for Radar, we also make sure that the updated φ is in a certain range [π, π]. 
+* During update step for Radar, we also make sure that the updated φ is in a certain range [-π, π]. 
 
 
 * After each update step, updated values will be pushed into an estimate array in order to calculate the root mean square error(rmse) between the predicted values and actual ground truth values. As can be seen in the following gif video the errors for (Px, Py, Vx, Vy) are [0.0954, 0.0837, 0.4499, 0.4357] at the end of the simulation.
