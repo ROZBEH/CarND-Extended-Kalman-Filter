@@ -14,15 +14,17 @@ Pipeline
 
 I. At first sensor data will be read and Extended Kalman Filter will be initialized by the first data point. Depending on the sensor type, we apply conversion to convert polar coordinate data into cartesian. For your note, Radar data is in polar coordinates and Laser data is in cartesian coordinates.
 
-In order to avoid division by zero, I make sure that the data points are not smaller than a threshold value (0.0001). Also in order to avoid recomputing some of the values, they are precomputed and later on used whenever need be.
+
+* In order to avoid division by zero, I make sure that the data points are not smaller than a threshold value (0.0001). Also in order to avoid recomputing some of the values, they are precomputed and later on used whenever need be.
 
 II. After initializing kalman filter class, object location(Px, Py) and velocity(Vx, Vy) will be predicted.
 
 III. Once the location is predicted, sensor data will be used to update the location of the object. Based on the sensor type (Laser, Radar), there are two different types of update step. If the sensor type is laser, the update step is like typical kalman filter update step. However, if the sensor type is Radar, we also have to mitigate the nonlinearity associated with the Radar measurments. This will be done by using jacobian matrix.
 
-During update step for Radar, we also make sure that the updated φ is in a certain range [π, π]. 
+* During update step for Radar, we also make sure that the updated φ is in a certain range [π, π]. 
 
-After each update step, updated values will be pushed into an estimate array in order to calculate the root mean square error(rmse) between the predicted values and actual ground truth values. As can be seen in the following gif video the errors for (Px, Py, Vx, Vy) are [0.0954, 0.0837, 0.4499, 0.4357] at the end of the simulation.
+
+* After each update step, updated values will be pushed into an estimate array in order to calculate the root mean square error(rmse) between the predicted values and actual ground truth values. As can be seen in the following gif video the errors for (Px, Py, Vx, Vy) are [0.0954, 0.0837, 0.4499, 0.4357] at the end of the simulation.
 
 <p align="center">
 <img src="https://j.gifs.com/ZVZwnv.gif" width = "600" />
@@ -35,11 +37,6 @@ IV. I also performed simulations for cases were just one of the sensors was acti
 
 
 
-
-
-
-
-<br>The following shows driving next to the edge of the curve and bringing the car back to the center of the road</br>
 <p align="center"><img src="image/table.png" width = "600" alt="Combined Image" />
 </p>
 
