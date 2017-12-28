@@ -4,9 +4,15 @@
 
 Overview
 ---
+
+
 In this project we are going to use Extended Kalman Filter for tracking objects around self driving car. Laser and Radar data will be used as input to extended Kalman Filter. 
+
+
 Pipeline
 ---
+
+
 
 *The overall pipeline along with the results will be described here!*
 
